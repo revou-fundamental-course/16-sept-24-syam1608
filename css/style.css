@@ -1,12 +1,14 @@
  /* Header */
- main {
+ main.p{
     background-color: rgb(129, 150, 158);
     display: flex;
      justify-content: space-between;
      align-items: center;
  }
-h2 {
-    color: aquamarine;
+h1,h2,p {
+    color: rgb(1, 10, 24);
+    text-align: center;
+    font-style: italic;
 }
 nav a{
     display:-ms-flexbox;
@@ -30,3 +32,24 @@ nav a:hover{
 .background {
     background-image: url(../assets/background.png);
 }
+.pembatas {
+    background-color: aquamarine;
+}
+.wilayah{
+    background-image: url(../assets/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 110px;
+}
+main{
+    justify-self: unset;
+}
+img.foto{
+vertical-align: middle;
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #010e11;
+    text-align: center;
+  }
