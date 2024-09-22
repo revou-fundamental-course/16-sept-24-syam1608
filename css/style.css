@@ -46,6 +46,7 @@ main{
 }
 img.foto{
 vertical-align: middle;
+float: left;
 }
 footer {
     padding: 20px;
