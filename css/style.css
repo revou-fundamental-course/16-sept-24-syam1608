@@ -5,11 +5,13 @@
      justify-content: space-between;
      align-items: center;
  }
+ /* paraghraf dan  */
 h1,h2,p {
     color: rgb(1, 10, 24);
     text-align: center;
     font-style: italic;
 }
+/* navigasi */
 nav a{
     display:-ms-flexbox;
     border: 2px;
@@ -18,14 +20,16 @@ nav a{
     font-size:large;
     text-decoration: none;
 }
+/* tengah semua */
 nav a:hover{
     text-decoration: none;
     font-weight: bold;
 }
+/* logo */
 .logo {
     height: 80px;
     width: 80px;
-    background-image: url(../assets/logo.png);
+    background-image: url(..//assets/logo.png);
     background-size: cover;
     background-position: center;
 }
@@ -35,19 +39,27 @@ nav a:hover{
 .pembatas {
     background-color: aquamarine;
 }
-.wilayah{
-    background-image: url(../assets/background.png);
+/* wilayah */
+.foto1{
+    background-image: url(../assets/jogja.jpg);
+    height: 80px;
+    width: 80px;
     background-position: center;
-    background-size: cover;
-    height: 110px;
+}
+.foto2{
+    background-image: url(../assets/bdg.jpg);
+    height: 80px;
+    width: 80px;
+    background-position:center;
 }
 main{
     justify-self: unset;
 }
-img.foto{
-vertical-align: middle;
-float: left;
+/* foto wilayah posisi */
+img.foto {
+    float: left;
 }
+/* hak cipta */
 footer {
     padding: 20px;
     color: white;
